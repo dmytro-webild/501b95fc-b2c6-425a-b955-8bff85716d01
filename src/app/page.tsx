@@ -88,7 +88,6 @@ export default function LandingPage() {
             useInvertedBackground={false}
             tag="Our Story"
             title="Why we built Ayu"
-            description="When we looked at what babies drink from every day, we couldn't believe the standard. Plastic bottles that leach chemicals when heated. BPA-free labels that hide equally harmful alternatives. Even glass bottles from major brands still use plastic collars and components. We built Ayu because every single part that touches your baby's milk should be free of plastic. No compromise. No exceptions. Just glass, silicone, and stainless steel — nothing else."
           />
         </div>
 
