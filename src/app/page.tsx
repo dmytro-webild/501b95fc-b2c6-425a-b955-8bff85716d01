@@ -30,13 +30,9 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Waitlist",
-          id: "waitlist",
-        },
+          name: "Waitlist",          id: "waitlist"},
       ]}
       brandName="AYU"
     />
@@ -45,15 +41,12 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogoBillboardSplit
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       logoText="AYU"
       description="Pure from the start. The first baby bottle with zero plastic. Coming soon."
       buttons={[
         {
-          text: "Join the waitlist",
-          href: "#waitlist",
-        },
+          text: "Join the waitlist",          href: "#waitlist"},
       ]}
       buttonAnimation="opacity"
       layoutOrder="default"
@@ -70,23 +63,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",
-          title: "Microplastics",
-          description: "4.6 million microplastic particles are released from a single plastic bottle when heated.",
-          imageSrc: "http://img.b2bpic.net/free-photo/wavy-waters-pool-with-darker-blue-spots-flat-lay_23-2148358141.jpg",
-        },
+          id: "f1",          title: "Microplastics",          description: "4.6 million microplastic particles are released from a single plastic bottle when heated.",          imageSrc: "http://img.b2bpic.net/free-photo/wavy-waters-pool-with-darker-blue-spots-flat-lay_23-2148358141.jpg"},
         {
-          id: "f2",
-          title: "False Safety",
-          description: "BPA-free is not plastic-free. BPS and BPF alternatives carry identical chemical risks.",
-          imageSrc: "http://img.b2bpic.net/free-vector/motivational-quote-with-flat-design_23-2147844010.jpg",
-        },
+          id: "f2",          title: "False Safety",          description: "BPA-free is not plastic-free. BPS and BPF alternatives carry identical chemical risks.",          imageSrc: "http://img.b2bpic.net/free-vector/motivational-quote-with-flat-design_23-2147844010.jpg"},
         {
-          id: "f3",
-          title: "Heat Impact",
-          description: "Dishwashers and sterilizers accelerate plastic breakdown, releasing toxins into every feed.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-yellow-flower-extreme-close-up_23-2148256533.jpg",
-        },
+          id: "f3",          title: "Heat Impact",          description: "Dishwashers and sterilizers accelerate plastic breakdown, releasing toxins into every feed.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-yellow-flower-extreme-close-up_23-2148256533.jpg"},
       ]}
       title="What's really in your baby's bottle?"
       description="Understanding the hidden risks of everyday plastic components."
@@ -100,29 +81,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "s1",
-          title: "Borosilicate Glass",
-          description: "Pharmaceutical grade construction, thermal shock resistant.",
-          imageSrc: "http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-11987.jpg",
-        },
+          id: "s1",          title: "Borosilicate Glass",          description: "Pharmaceutical grade construction, thermal shock resistant.",          imageSrc: "http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-11987.jpg"},
         {
-          id: "s2",
-          title: "Stainless Steel Collar",
-          description: "Zero plastic, anywhere in the construction.",
-          imageSrc: "http://img.b2bpic.net/free-vector/metallic-textured-background_53876-89257.jpg",
-        },
+          id: "s2",          title: "Stainless Steel Collar",          description: "Zero plastic, anywhere in the construction.",          imageSrc: "http://img.b2bpic.net/free-vector/metallic-textured-background_53876-89257.jpg"},
         {
-          id: "s3",
-          title: "Medical Silicone",
-          description: "Soft, safe nipple design available in three distinct flow rates.",
-          imageSrc: "http://img.b2bpic.net/free-photo/ater-drop-blue-cloth_23-2147828375.jpg",
-        },
+          id: "s3",          title: "Medical Silicone",          description: "Soft, safe nipple design available in three distinct flow rates.",          imageSrc: "http://img.b2bpic.net/free-photo/ater-drop-blue-cloth_23-2147828375.jpg"},
         {
-          id: "s4",
-          title: "Protective Sleeve",
-          description: "Partial wrap silicone sleeve designed for grip and durability.",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-woman-using-nebulizer-home_23-2150562030.jpg",
-        },
+          id: "s4",          title: "Protective Sleeve",          description: "Partial wrap silicone sleeve designed for grip and durability.",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-woman-using-nebulizer-home_23-2150562030.jpg"},
       ]}
       title="Nothing but glass."
       description="We built the baby bottle that should have always existed."
@@ -143,15 +108,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "d1",
-          title: "150ml Variant",
-          content: "Wide neck, Borosilicate glass, Stainless steel collar, Medical-grade silicone nipple, Partial silicone sleeve, Dishwasher safe, Zero plastic components",
-        },
+          id: "d1",          title: "150ml Variant",          content: "Wide neck, Borosilicate glass, Stainless steel collar, Medical-grade silicone nipple, Partial silicone sleeve, Dishwasher safe, Zero plastic components"},
         {
-          id: "d2",
-          title: "250ml Variant",
-          content: "Wide neck, Borosilicate glass, Stainless steel collar, Medical-grade silicone nipple, Partial silicone sleeve, Dishwasher safe, Zero plastic components",
-        },
+          id: "d2",          title: "250ml Variant",          content: "Wide neck, Borosilicate glass, Stainless steel collar, Medical-grade silicone nipple, Partial silicone sleeve, Dishwasher safe, Zero plastic components"},
       ]}
       sideTitle="The Details"
       faqsAnimation="opacity"
@@ -163,8 +122,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Join the waitlist"
       title="Be part of the new standard."
       description="Join the waitlist for early access and exclusive launch pricing. Limited first batch."
